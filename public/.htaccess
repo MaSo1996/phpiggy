@@ -1,0 +1,6 @@
+RewriteEingine On
+
+RewriteConde %{REQUEST_FILENAME} !-d
+RewriteConde %{REQUEST_FILENAME} !-f
+
+RewriteRule ^/index.php[L]
