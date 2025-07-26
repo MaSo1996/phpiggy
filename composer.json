@@ -1,0 +1,18 @@
+{
+  "name": "msochacki/phpiggy",
+  "description": "PHP app for tracking expenses",
+  "type": "project",
+  "authors": [
+    {
+      "name": "MaSo1996",
+      "email": "138728469+MaSo1996@users.noreply.github.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "src/Framework",
+      "App\\": "src/App"
+    }
+  }
+}
